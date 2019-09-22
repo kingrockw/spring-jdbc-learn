@@ -30,7 +30,7 @@ public class Isolation3Test {
 //        可重复读 mysql默认
 //        connection.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
 //        串行化, t2 结束之后才能执行
-//        connection.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
+        connection.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
         String sql = "update blog  set title =  CONCAT('aaa-',title),addDate = now() where blogId > ?";
 
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -41,19 +41,16 @@ public class Isolation3Test {
         preparedStatement.setInt(1, 0);
         ResultSet resultSet = preparedStatement.executeQuery();
         List<Blog> blog = BeanUtil.toBlogList(resultSet);
-        System.out.println("更新未提交第一次读取：" + blog);
+        System.out.println("更新未提交,第一次读取：" + blog);
         Thread.sleep(20 * 1000);
         connection.commit();
-        DBUtil.closeAll(preparedStatement, resultSet, connection);
-
-        connection = DBUtil.getConnection();
-        connection.setAutoCommit(false);
-        sqlQuery = "SELECT * FROM blog WHERE blogId > ? " ;
         preparedStatement = connection.prepareStatement(sqlQuery);
         preparedStatement.setInt(1, 0);
         resultSet = preparedStatement.executeQuery();
         blog = BeanUtil.toBlogList(resultSet);
-        System.out.println("更新完再次读取，发生幻读：" + blog);
+        System.out.println("更新已提交，第二次读取：" + blog);
+//        先不提交，以免修改数据
+//        connection.commit();
         DBUtil.closeAll(preparedStatement, resultSet, connection);
     }
 
