@@ -1,22 +1,1251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="101" />
-    <option name="y" value="80" />
+  <component name="ChangeListManager">
+    <list default="true" id="882815cf-2cfc-46fe-9690-dd8a8fe678e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/rock/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/rock/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/rock/config/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/rock/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BlogDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/rock/jdbc/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbctest/Isolation1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbctest/Isolation2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbctest/Isolation3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbctest/TestDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/springjdbctest/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1250170816">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="11" />
+          <entry key="java" value="1194" />
+          <entry key="xml" value="267" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1194" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="XML" value="267" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0-SNAPSHOT" value="5" />
+          <entry key="class" value="29" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="91" />
+          <entry key="pom" value="5" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="29" />
+          <entry key="JAVA" value="91" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="UML" value="5" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/springjdbctest/SpringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation1Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="37" column="33" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="37" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#&lt;unnamed&gt;#0;class#Isolation1Test#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation3Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BeanUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="44" />
+              <folding>
+                <element signature="method#toBlog#1;class#BeanUtil#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BlogDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="422" column="41" selection-start-line="422" selection-start-column="41" selection-end-line="422" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/config/DBConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/TestDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="631" column="30" selection-start-line="631" selection-start-column="30" selection-end-line="631" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dataSource</find>
+      <find>TRANSACTION_READ_UNCOMMITTED</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/rock/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/rock/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/rock/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/springjdbctest/SpringTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/jdbctest/TestDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/rock/config/DBConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/rock/jdbc/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BlogDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BeanUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jdbctest/Isolation2Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jdbctest/Isolation1Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jdbctest/Isolation3Test.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_repository" />
+        <option name="mavenHome" value="D:/APP/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\APP\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="130" />
+    <option name="y" value="20" />
     <option name="width" value="1740" />
-    <option name="height" value="930" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbctest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569160463253" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\spring-jdbc\src\main\java\cn\rock" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jdbctest" />
+      <recent name="cn.rock.entity" />
+      <recent name="cn.rock" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\spring-jdbc\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Isolation3Test.t2">
+    <configuration name="Isolation1Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctest" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation1Test" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Isolation2Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctest" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation2Test" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Isolation2Test.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctest" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation2Test" />
+      <option name="METHOD_NAME" value="t2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Isolation3Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctest" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation3Test" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Isolation3Test.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctest" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation3Test" />
+      <option name="METHOD_NAME" value="t2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Isolation1Test.t1" />
+      <item itemvalue="JUnit.Isolation2Test.t1" />
+      <item itemvalue="JUnit.Isolation2Test.t2" />
+      <item itemvalue="JUnit.Isolation3Test.t1" />
+      <item itemvalue="JUnit.Isolation3Test.t2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Isolation3Test.t2" />
+        <item itemvalue="JUnit.Isolation3Test.t1" />
+        <item itemvalue="JUnit.Isolation2Test.t2" />
+        <item itemvalue="JUnit.Isolation2Test.t1" />
+        <item itemvalue="JUnit.Isolation1Test.t1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="882815cf-2cfc-46fe-9690-dd8a8fe678e3" name="Default Changelist" comment="" />
+      <created>1569128895355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569128895355</updated>
+      <workItem from="1569128900722" duration="16805000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Isolation2Test_t1 - 2019.09.22 at 21h 25m 12s.xml">
+      <configuration name="Isolation2Test.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 21h 38m 01s.xml">
+      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 21h 38m 57s.xml">
+      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 21h 39m 47s.xml">
+      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 21h 40m 36s.xml">
+      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 21h 41m 57s.xml">
+      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t2 - 2019.09.22 at 21h 46m 06s.xml">
+      <configuration name="Isolation3Test.t2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 21h 46m 06s.xml">
+      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t2 - 2019.09.22 at 21h 49m 39s.xml">
+      <configuration name="Isolation3Test.t2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 21h 49m 39s.xml">
+      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16805000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28619304" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.28611898" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29461756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33569404" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jdbctest/TestDB.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/springjdbctest/SpringTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/rock/AppTest.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/springjdbctest/SpringTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/springjdbctest/SpringTest.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jdbctest/TestDB.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/AnnotatedBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/ClassRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+          <folding>
+            <element signature="e#4299#4300#0" expanded="true" />
+            <element signature="e#4368#4369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/conf/ConnectionUrlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/conf/ConnectionUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="578" selection-start-line="578" selection-end-line="578" />
+          <folding>
+            <element signature="e#24576#24577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/ConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#7018#7019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="330" selection-start-line="330" selection-end-line="330" />
+          <folding>
+            <element signature="e#11624#11625#0" expanded="true" />
+            <element signature="e#11656#11657#0" expanded="true" />
+            <element signature="e#14870#14881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar!/org/springframework/jdbc/support/JdbcAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/SQLNonTransientException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/SQLInvalidAuthorizationSpecException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/SQLIntegrityConstraintViolationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/SQLFeatureNotSupportedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/SQLException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/SQLOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/maven_repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://MAVEN/rock:spring-jdbc-learn:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>rock:spring-jdbc-learn:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="275.3028846153846" y="425.0">rock:spring-jdbc-learn:1.0-SNAPSHOT</node>
+            <node x="0.0" y="334.0">org.springframework:spring-jdbc:jar:5.1.6.RELEASE</node>
+            <node x="69.60989010989013" y="172.0">org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE</node>
+            <node x="184.75" y="81.0">org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE</node>
+            <node x="191.75" y="0.0">org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE/org.springframework:spring-jcl:jar:5.1.6.RELEASE</node>
+            <node x="53.25" y="253.0">org.springframework:spring-tx:jar:5.1.6.RELEASE</node>
+            <node x="206.42788461538458" y="334.0">org.springframework:spring-context:jar:5.1.6.RELEASE</node>
+            <node x="162.75" y="253.0">org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.6.RELEASE</node>
+            <node x="245.25" y="172.0">org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-expression:jar:5.1.6.RELEASE</node>
+            <node x="573.75" y="334.0">mysql:mysql-connector-java:jar:8.0.15</node>
+            <node x="596.75" y="253.0">mysql:mysql-connector-java:jar:8.0.15/com.google.protobuf:protobuf-java:jar:3.6.1</node>
+            <node x="402.25" y="172.0">org.springframework:spring-test:jar:5.1.6.RELEASE</node>
+            <node x="490.25" y="334.0">junit:junit:jar:4.12</node>
+            <node x="460.75" y="253.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="rock:spring-jdbc-learn:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:8.0.15">
+              <point x="55.0" y="-15.5" />
+              <point x="396.3028846153846" y="405.0" />
+              <point x="652.75" y="405.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE">
+              <point x="-21.0" y="-15.5" />
+              <point x="74.25" y="223.0" />
+              <point x="59.10989010989013" y="223.0" />
+              <point x="59.10989010989013" y="142.0" />
+              <point x="206.17857142857144" y="142.0" />
+              <point x="-28.571428571428584" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE">
+              <point x="-33.0" y="-15.5" />
+              <point x="16.5" y="314.0" />
+              <point x="27.5" y="314.0" />
+              <point x="27.5" y="132.0" />
+              <point x="191.89285714285717" y="132.0" />
+              <point x="-42.85714285714286" y="15.5" />
+            </edge>
+            <edge source="rock:spring-jdbc-learn:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:5.1.6.RELEASE">
+              <point x="-33.0" y="-15.5" />
+              <point x="308.3028846153846" y="395.0" />
+              <point x="116.25" y="395.0" />
+              <point x="21.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="49.5" y="314.0" />
+              <point x="38.5" y="314.0" />
+              <point x="38.5" y="233.0" />
+              <point x="83.10989010989013" y="233.0" />
+              <point x="-40.5" y="15.5" />
+            </edge>
+            <edge source="rock:spring-jdbc-learn:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:5.1.6.RELEASE">
+              <point x="-11.0" y="-15.5" />
+              <point x="330.3028846153846" y="385.0" />
+              <point x="265.4278846153846" y="385.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="rock:spring-jdbc-learn:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.1.6.RELEASE">
+              <point x="11.0" y="-15.5" />
+              <point x="352.3028846153846" y="385.0" />
+              <point x="450.25" y="385.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="123.60989010989013" y="152.0" />
+              <point x="220.46428571428572" y="152.0" />
+              <point x="-14.285714285714278" y="15.5" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE">
+              <point x="21.0" y="-15.5" />
+              <point x="116.25" y="233.0" />
+              <point x="110.10989010989013" y="233.0" />
+              <point x="-13.5" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE">
+              <point x="44.25" y="-15.5" />
+              <point x="309.6778846153846" y="314.0" />
+              <point x="391.75" y="314.0" />
+              <point x="391.75" y="142.0" />
+              <point x="263.32142857142856" y="142.0" />
+              <point x="28.571428571428555" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE">
+              <point x="24.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.1.6.RELEASE" target="org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.6.RELEASE">
+              <point x="-14.75" y="-15.5" />
+              <point x="250.67788461538458" y="304.0" />
+              <point x="210.75" y="304.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="rock:spring-jdbc-learn:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE">
+              <point x="-55.0" y="-15.5" />
+              <point x="286.3028846153846" y="405.0" />
+              <point x="49.5" y="405.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="mysql:mysql-connector-java:jar:8.0.15" target="mysql:mysql-connector-java:jar:8.0.15/com.google.protobuf:protobuf-java:jar:3.6.1">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE/org.springframework:spring-jcl:jar:5.1.6.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.1.6.RELEASE" target="org.springframework:spring-tx:jar:5.1.6.RELEASE">
+              <point x="33.0" y="-15.5" />
+              <point x="82.5" y="314.0" />
+              <point x="74.25" y="314.0" />
+              <point x="-21.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.1.6.RELEASE" target="org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-expression:jar:5.1.6.RELEASE">
+              <point x="14.75" y="-15.5" />
+              <point x="280.1778846153846" y="304.0" />
+              <point x="313.25" y="304.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="450.25" y="132.0" />
+              <point x="277.60714285714283" y="132.0" />
+              <point x="42.85714285714283" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE">
+              <point x="-44.25" y="-15.5" />
+              <point x="221.17788461538458" y="314.0" />
+              <point x="152.25" y="314.0" />
+              <point x="152.25" y="233.0" />
+              <point x="137.10989010989013" y="233.0" />
+              <point x="13.5" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE">
+              <point x="-24.0" y="-15.5" />
+              <point x="186.75" y="233.0" />
+              <point x="164.10989010989013" y="233.0" />
+              <point x="40.5" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.1.6.RELEASE/org.springframework:spring-expression:jar:5.1.6.RELEASE" target="org.springframework:spring-jdbc:jar:5.1.6.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="313.25" y="152.0" />
+              <point x="249.03571428571428" y="152.0" />
+              <point x="14.285714285714278" y="15.5" />
+            </edge>
+            <edge source="rock:spring-jdbc-learn:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="33.0" y="-15.5" />
+              <point x="374.3028846153846" y="395.0" />
+              <point x="518.75" y="395.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="73.5" y="142.5" />
+          <SelectedNodes>
+            <node>junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node>rock:spring-jdbc-learn:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/com/alibaba/druid/1.0.25/druid-1.0.25.jar!/com/alibaba/druid/proxy/DruidDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/com/alibaba/druid/1.0.25/druid-1.0.25.jar!/com/alibaba/druid/mock/MockDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/MysqlDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="631" column="30" selection-start-line="631" selection-start-column="30" selection-end-line="631" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="82" column="75" lean-forward="true" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven_repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#8579#8580#0" expanded="true" />
+            <element signature="e#8608#8609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/config/DBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/entity/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/APP/jdk8/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="422" column="41" selection-start-line="422" selection-start-column="41" selection-end-line="422" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="method#toBlog#1;class#BeanUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/TestDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BlogDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/springjdbctest/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#&lt;unnamed&gt;#0;class#Isolation1Test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-jdbc:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-jdbc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
