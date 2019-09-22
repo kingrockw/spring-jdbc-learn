@@ -30,11 +30,13 @@ public class Isolation5Test {
 //        读取已提交 幻读
 //        connection.setTransactionIsolation(Connection.TRANSACTION_READ_COMMITTED);
 //        可重复读 mysql默认，不会出现幻读
-//        connection.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
+        connection.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
 //        串行化, t2 结束之后才能执行
-        connection.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
+//        connection.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE);
 
         String sqlQuery = "SELECT * FROM blog WHERE blogId = ? " ;
+        //解决办法 查询时添加  FOR UPDATE
+//        String sqlQuery = "SELECT * FROM blog WHERE blogId = ? FOR UPDATE" ;
         PreparedStatement preparedStatement = connection.prepareStatement(sqlQuery);
         preparedStatement.setInt(1, 20);
         ResultSet resultSet = preparedStatement.executeQuery();
