@@ -23,13 +23,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="12" />
-          <entry key="java" value="1226" />
+          <entry key="java" value="1404" />
           <entry key="xml" value="267" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1226" />
+          <entry key="JAVA" value="1404" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="267" />
         </counts>
@@ -39,7 +39,7 @@
           <entry key="0-SNAPSHOT" value="5" />
           <entry key="class" value="29" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="91" />
+          <entry key="java" value="94" />
           <entry key="pom" value="5" />
           <entry key="xml" value="1" />
         </counts>
@@ -47,7 +47,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="29" />
-          <entry key="JAVA" value="91" />
+          <entry key="JAVA" value="94" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="5" />
           <entry key="XML" value="6" />
@@ -57,13 +57,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation3Test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation4Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="33" column="80" lean-forward="true" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
+            <state relative-caret-position="209">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation5Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BeanUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#toBlog#1;class#BeanUtil#0" />
               </folding>
             </state>
           </provider>
@@ -104,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/test/java/jdbctest/Isolation1Test.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/jdbctest/Isolation3Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jdbctest/Isolation4Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jdbctest/Isolation5Test.java" />
       </list>
     </option>
   </component>
@@ -127,7 +147,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="130" />
     <option name="y" value="20" />
     <option name="width" value="1740" />
@@ -181,6 +201,15 @@
               <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rock" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springjdbclearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569161740046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569164671261" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -245,8 +274,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Isolation3Test.t2">
-    <configuration name="Isolation1Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Isolation5Test.t2">
+    <configuration name="Isolation3Test.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-jdbc" />
       <extension name="coverage">
         <pattern>
@@ -255,14 +284,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbctest" />
-      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation1Test" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation3Test" />
+      <option name="METHOD_NAME" value="t3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Isolation4Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctest" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation4Test" />
       <option name="METHOD_NAME" value="t1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Isolation2Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Isolation4Test.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-jdbc" />
       <extension name="coverage">
         <pattern>
@@ -271,30 +316,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbctest" />
-      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation2Test" />
-      <option name="METHOD_NAME" value="t1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Isolation2Test.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbctest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbctest" />
-      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation2Test" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation4Test" />
       <option name="METHOD_NAME" value="t2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Isolation3Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Isolation5Test.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-jdbc" />
       <extension name="coverage">
         <pattern>
@@ -303,14 +332,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbctest" />
-      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation3Test" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation5Test" />
       <option name="METHOD_NAME" value="t1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Isolation3Test.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Isolation5Test.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-jdbc" />
       <extension name="coverage">
         <pattern>
@@ -319,7 +348,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbctest" />
-      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation3Test" />
+      <option name="MAIN_CLASS_NAME" value="jdbctest.Isolation5Test" />
       <option name="METHOD_NAME" value="t2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -327,19 +356,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Isolation1Test.t1" />
-      <item itemvalue="JUnit.Isolation2Test.t1" />
-      <item itemvalue="JUnit.Isolation2Test.t2" />
-      <item itemvalue="JUnit.Isolation3Test.t1" />
-      <item itemvalue="JUnit.Isolation3Test.t2" />
+      <item itemvalue="JUnit.Isolation3Test.t3" />
+      <item itemvalue="JUnit.Isolation4Test.t1" />
+      <item itemvalue="JUnit.Isolation4Test.t2" />
+      <item itemvalue="JUnit.Isolation5Test.t1" />
+      <item itemvalue="JUnit.Isolation5Test.t2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Isolation3Test.t2" />
-        <item itemvalue="JUnit.Isolation3Test.t1" />
-        <item itemvalue="JUnit.Isolation2Test.t2" />
-        <item itemvalue="JUnit.Isolation2Test.t1" />
-        <item itemvalue="JUnit.Isolation1Test.t1" />
+        <item itemvalue="JUnit.Isolation5Test.t2" />
+        <item itemvalue="JUnit.Isolation5Test.t1" />
+        <item itemvalue="JUnit.Isolation4Test.t2" />
+        <item itemvalue="JUnit.Isolation4Test.t1" />
+        <item itemvalue="JUnit.Isolation3Test.t3" />
       </list>
     </recent_temporary>
   </component>
@@ -353,44 +382,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569128895355</updated>
-      <workItem from="1569128900722" duration="18036000" />
+      <workItem from="1569128900722" duration="20973000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Isolation3Test_t2 - 2019.09.22 at 22h 04m 45s.xml">
-      <configuration name="Isolation3Test.t2" configurationId="JUnit" />
+    <history-entry file="Isolation4Test_t2 - 2019.09.22 at 22h 40m 34s.xml">
+      <configuration name="Isolation4Test.t2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 22h 04m 45s.xml">
-      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    <history-entry file="Isolation4Test_t1 - 2019.09.22 at 22h 40m 48s.xml">
+      <configuration name="Isolation4Test.t1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 22h 06m 01s.xml">
-      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    <history-entry file="Isolation4Test_t2 - 2019.09.22 at 22h 41m 55s.xml">
+      <configuration name="Isolation4Test.t2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t2 - 2019.09.22 at 22h 06m 01s.xml">
-      <configuration name="Isolation3Test.t2" configurationId="JUnit" />
+    <history-entry file="Isolation4Test_t1 - 2019.09.22 at 22h 42m 12s.xml">
+      <configuration name="Isolation4Test.t1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 22h 10m 23s.xml">
-      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    <history-entry file="Isolation4Test_t2 - 2019.09.22 at 22h 43m 32s.xml">
+      <configuration name="Isolation4Test.t2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t2 - 2019.09.22 at 22h 10m 23s.xml">
-      <configuration name="Isolation3Test.t2" configurationId="JUnit" />
+    <history-entry file="Isolation4Test_t1 - 2019.09.22 at 22h 43m 48s.xml">
+      <configuration name="Isolation4Test.t1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 22h 12m 20s.xml">
-      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    <history-entry file="Isolation5Test_t2 - 2019.09.22 at 23h 01m 53s.xml">
+      <configuration name="Isolation5Test.t2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t2 - 2019.09.22 at 22h 12m 20s.xml">
-      <configuration name="Isolation3Test.t2" configurationId="JUnit" />
+    <history-entry file="Isolation5Test_t1 - 2019.09.22 at 23h 02m 06s.xml">
+      <configuration name="Isolation5Test.t1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t1 - 2019.09.22 at 22h 13m 55s.xml">
-      <configuration name="Isolation3Test.t1" configurationId="JUnit" />
+    <history-entry file="Isolation5Test_t2 - 2019.09.22 at 23h 03m 01s.xml">
+      <configuration name="Isolation5Test.t2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Isolation3Test_t2 - 2019.09.22 at 22h 13m 55s.xml">
-      <configuration name="Isolation3Test.t2" configurationId="JUnit" />
+    <history-entry file="Isolation5Test_t1 - 2019.09.22 at 23h 03m 15s.xml">
+      <configuration name="Isolation5Test.t1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18036000" />
+    <option name="totallyTimeSpent" value="20973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -478,20 +507,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/AnnotatedBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/ClassRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven_repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -985,16 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="method#toBlog#1;class#BeanUtil#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/TestDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1045,11 +1050,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation3Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="33" column="80" lean-forward="true" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
+        <state relative-caret-position="266">
+          <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rock/jdbc/BeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="method#toBlog#1;class#BeanUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jdbctest/Isolation5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
