@@ -4,6 +4,7 @@ import cn.rock.entity.Blog;
 import cn.rock.jdbc.BeanUtil;
 import cn.rock.jdbc.DBUtil;
 import org.junit.Test;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -18,9 +19,11 @@ public class Isolation2Test {
 
 
     @Test
+    @Transactional
     public void t1() throws SQLException, InterruptedException {
         //t1 读取
         Connection connection = DBUtil.getConnection();
+//        connection.setReadOnly();
         connection.setAutoCommit(false);
 //        读取未提交
 //        connection.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);

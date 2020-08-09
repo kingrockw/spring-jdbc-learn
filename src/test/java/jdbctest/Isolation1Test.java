@@ -52,7 +52,47 @@ public class Isolation1Test {
             Blog blog = new Blog();
             blog.setBlogId(19);
             blog.setContent("我的第三篇blog");
-            blog.setTitle("TX");
+            blog.setTitle("t2");
+            blog.setUserId(12);
+            String sql = "update blog  set title = ?,content = ?,addDate = now() where blogId = ?";
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, blog.getTitle());
+            preparedStatement.setString(2, blog.getContent());
+            preparedStatement.setLong(3, blog.getBlogId());
+            int b = preparedStatement.executeUpdate();
+            System.out.println("更新已执行，未提交");
+            Thread.sleep(20*1000);
+            if (true){
+                throw new NullPointerException("null");
+            }
+            connection.commit();
+            System.out.println("事务已提交");
+        } catch (Exception e) {
+            try {
+                connection.rollback();
+                System.out.println("发生异常回滚事务");
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+            }
+        }finally {
+            DBUtil.closeAll(preparedStatement,null,connection);
+        }
+    }
+
+    @Test
+    public void t3() {
+        //t2 修改
+
+        Connection connection = null;
+        PreparedStatement  preparedStatement = null;
+        try {
+            connection = DBUtil.getConnection();
+            connection.setAutoCommit(false);
+//            connection.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
+            Blog blog = new Blog();
+            blog.setBlogId(19);
+            blog.setContent("我的第三篇blog");
+            blog.setTitle("t3");
             blog.setUserId(12);
             String sql = "update blog  set title = ?,content = ?,addDate = now() where blogId = ?";
             preparedStatement = connection.prepareStatement(sql);
